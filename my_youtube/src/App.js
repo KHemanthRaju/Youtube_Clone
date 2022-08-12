@@ -1,12 +1,13 @@
 import './App.css';
+import Footer from './Footer';
+import Header from './Header';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Hello world</h1>
-        <h2> Welcome to react bootcamp</h2>
-      </header>
+      <Header count = {1}/>
+      <Header count = {2}/>
+      <Footer/>
     </div>
   );
 }
