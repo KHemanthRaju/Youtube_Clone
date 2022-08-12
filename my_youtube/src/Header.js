@@ -1,10 +1,14 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 function Header(props) {
 
     var condition = true;
     var count = props.counter;
     var [count,setCount] = useState(props.counter);
+
+    useEffect(()=>{
+        console.log("Effect is running")
+    },[count]);
 
     return (
         <>
