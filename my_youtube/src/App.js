@@ -5,8 +5,8 @@ import Header from './Header';
 function App() {
   return (
     <div className="App">
-      <Header count = {1}/>
-      <Header count = {2}/>
+      <Header counter = {1}/>
+      
       <Footer/>
     </div>
   );
