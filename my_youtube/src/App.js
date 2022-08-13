@@ -1,13 +1,17 @@
 import './App.css';
-import Footer from './Footer';
-import Header from './Header';
+import {BrowserRouter,Routes,Route} from 'react-router-dom';
+import Header from './components/Header/Header';
 
 function App() {
   return (
     <div className="App">
-      <Header counter = {1}/>
-      
-      <Footer/>
+      <div className="app_mainpage">
+        <BrowserRouter>
+            <Routes>
+              <Route path="/" element={<Header/>}/>
+            </Routes>
+        </BrowserRouter>
+      </div>
     </div>
   );
 }
