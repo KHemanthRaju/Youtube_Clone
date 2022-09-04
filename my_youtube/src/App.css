@@ -1,14 +1,14 @@
-.app_mainpage{
-  display:flex;
+.app__mainpage {
+    display: flex;
 }
 
-*{
-  text-decoration: inherit;
-  color: inherit;
+a {
+    text-decoration: inherit;
+    color: inherit;
 }
 
-.loading{
-  display: block !important;
-  width: 50%;
-  margin: auto;
+.loading {
+    display: block !important;
+    width: 50%;
+    margin: auto;
 }
